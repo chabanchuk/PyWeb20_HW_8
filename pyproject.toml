@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "hw-8"
+version = "0.1.0"
+description = ""
+authors = ["chabanchuk <145770156+chabanchuk@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pika = "^1.3.2"
+bson = "^0.5.10"
+mongoengine = "^0.28.2"
+faker = "^24.2.0"
+redis = "^5.0.3"
+redis-lru = "^0.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
